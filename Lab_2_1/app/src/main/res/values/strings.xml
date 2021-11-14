@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Lab_2_1</string>
+    <string name="app_name">Зинчук Анна</string>
+
+    <string name="one">Первая кнопка</string>
+    <string name="two">Вторая кнопка</string>
+    <string name="three">Третья кнопка</string>
+    <string name="four">Четвертая кнопка</string>
+    <string name="five">Пятая кнопка</string>
+    <string name="six">Шестая кнопка</string>
+    <string name="orientation">Ориентация экрана</string>
+
 </resources>
