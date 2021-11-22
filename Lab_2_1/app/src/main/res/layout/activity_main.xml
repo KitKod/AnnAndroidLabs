@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lab_2_1.MainActivity"
-    android:orientation="vertical">
+    android:background="#FFEB3B"
+    android:orientation="vertical"
+    tools:context="com.example.lab_2_1.MainActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -15,47 +15,54 @@
         android:text="Hello World!"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
     <Button
-        android:text="@string/one"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button1" />
+        android:text="@string/one" />
+
     <Button
-        android:text="@string/two"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button2" />
+        android:text="@string/two" />
+
     <Button
-        android:text="@string/three"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button3" />
+        android:text="@string/three" />
+
     <Button
-        android:text="@string/four"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button4" />
+        android:text="@string/four" />
     2
+
     <Button
-        android:text="@string/five"
+        android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button5" />
+        android:text="@string/five" />
+
     <Button
-        android:text="@string/six"
+        android:id="@+id/button6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button6" />
+        android:text="@string/six" />
+
     <Button
-        android:text="@string/orientation"
+        android:id="@+id/button7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:id="@+id/button7" />
+        android:text="@string/orientation" />
 </LinearLayout>

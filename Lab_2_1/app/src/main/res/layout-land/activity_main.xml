@@ -4,6 +4,7 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     android:orientation="vertical"
     tools:context="com.example.lab_2_1.MainActivity">
 
@@ -39,6 +40,7 @@
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
@@ -55,6 +57,7 @@
         </TableRow>
 
         <TableRow>
+
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
@@ -71,11 +74,11 @@
         </TableRow>
 
         <Button
-            android:text="@string/orientation"
+            android:id="@+id/button7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:id="@+id/button7" />
+            android:text="@string/orientation" />
 
     </TableLayout>
 </LinearLayout>
