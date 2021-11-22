@@ -9,13 +9,13 @@
     tools:context="com.example.lab_1_2.MainActivity">
 
     <Button
-        android:text="@string/red"
+        android:id="@+id/buttonRed"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="10dp"
-        android:id="@+id/buttonRed" />
+        android:text="@string/red" />
     <Button
         android:text="@string/yellow"
         android:layout_width="match_parent"
