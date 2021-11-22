@@ -5,16 +5,17 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lab_1.MainActivity"
-    android:background="@color/black">
+    android:background="@color/teal_200"
+    tools:context="com.example.lab_1.MainActivity">
+
     <ImageButton
+        android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/sorry"
-        android:layout_marginTop="58dp"
-        android:id="@+id/imageButton"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        app:srcCompat="@drawable/sorry" />
 
     <TextView
         android:id="@+id/textView2"

@@ -27,12 +27,7 @@ public class MainActivity extends AppCompatActivity {
         return new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (helloTextView.getText().toString().equals("")) {
-                    helloTextView.setText("Hello Friend!!!");
-                } else {
-                    helloTextView.setText("");
-                }
-
+                helloTextView.setText("Hello Friend!!!");
             }
         };
     }
