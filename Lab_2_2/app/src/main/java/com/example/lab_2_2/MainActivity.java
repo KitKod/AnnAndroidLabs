@@ -34,13 +34,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_close) {
-            info.setText("Вы выбрали Закрыть");
-            onCloseMenuClick();
+            info.setText("Закрыть");
         } else if (id == R.id.action_setting) {
-            info.setText("Вы выбрали Настройки");
+            info.setText("Настройки");
             onSettingMenuClick();
         } else if (id == R.id.action_help) {
-            info.setText("Вы выбрали Справку");
+            info.setText("Справку");
             onAboutMenuClick();
         } else {
             return super.onOptionsItemSelected(item);
@@ -49,21 +48,11 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    public void onCloseMenuClick() {
-        this.finish();
-        System.exit(0);
-    }
-
     public void onSettingMenuClick() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Внимание!");
         builder.setMessage("Вы действительно хотите выйти?");
-        builder.setPositiveButton("Да", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                onCloseMenuClick();
-            }
-        });
+        builder.setPositiveButton("Да", null);
         builder.setNegativeButton("Нет", null);
         builder.show();
     }

@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">Зинчук Анна</string>
+    <string name="app_name">Lab-2-2</string>
     <string name="action_close">Выход</string>
     <string name="action_setting">Настройки</string>
     <string name="action_help">Справка</string>
     <string name="about_text">
         Справка:\n
-        Следует нажимать пальцами, НО беречь маникюр!
+        Следует нажимать пальцами
     </string>
     <string name="about_title">О программе</string>
 </resources>
