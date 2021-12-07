@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zinchuk Anna</string>
+    <string name="source_currency">Sélectionnez la devise source</string>
+    <string name="euro">euro</string>
+    <string name="doll">dollar</string>
+    <string name="hrn">hryvnia</string>
+    <string name="exchange">Échanger</string>
+    <string name="source_amount">Entrez le montant de la source</string>
+    <string name="result_currency">Sélectionnez la devise du résultat</string>
+    <string name="cource">Vérifier ou modifier le taux de change</string>
+    <string name="enter_source_amount_of_money">Entrez le montant de la source</string>
+    <string name="enter_sum">Entrer la somme</string>
+    <string name="look_result">Regarde le résultat</string>
+    <string name="from_to">De --> à</string>
+    <string name="rate">Taux</string>
+    <string name="hr_to_dollar">₴ --> $</string>
+    <string name="dollar_to_hr">$ --> ₴</string>
+    <string name="euro_to_dollar">€ --> $</string>
+    <string name="hr_to_euro">₴ --> €</string>
+    <string name="euro_to_hr">€ --> ₴</string>
+    <string name="back">Arrière</string>
+    <string name="dollar_to_euro">$ --> €</string>
+</resources>

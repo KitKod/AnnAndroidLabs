@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Зинчук Анна</string>
+    <string name="source_currency">Выберите исходную валюту</string>
+    <string name="result_currency">Выберите валюту результата</string>
+    <string name="source_amount">Введите исходную сумму денег</string>
+    <string name="exchange">Обмен</string>
+    <string name="hrn">гривна</string>
+    <string name="doll">доллар</string>
+    <string name="euro">Евро</string>
+    <string name="cource">Проверить или изменить курс валюты</string>
+    <string name="enter_source_amount_of_money">Введите исходную сумму денег</string>
+    <string name="enter_sum">Введите сумму</string>
+    <string name="look_result">Посмотрите результат</string>
+    <string name="from_to">С --> до</string>
+    <string name="rate">Курс</string>
+    <string name="hr_to_dollar">₴ --> $</string>
+    <string name="dollar_to_hr">$ --> ₴</string>
+    <string name="euro_to_dollar">€ --> $</string>
+    <string name="hr_to_euro">₴ --> €</string>
+    <string name="euro_to_hr">€ --> ₴</string>
+    <string name="back">Назад</string>
+    <string name="dollar_to_euro">$ --> €</string>
+</resources>

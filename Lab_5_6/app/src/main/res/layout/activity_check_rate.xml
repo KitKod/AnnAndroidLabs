@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckRateActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from_to" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hr_to_dollar" />
+
+            <EditText
+                android:id="@+id/editTextHrnToDol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dollar_to_hr" />
+
+            <EditText
+                android:id="@+id/editTextDolToHrn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/euro_to_dollar" />
+
+            <EditText
+                android:id="@+id/editTextEurToDol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dollar_to_euro" />
+
+            <EditText
+                android:id="@+id/editTextDolToEur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hr_to_euro" />
+
+            <EditText
+                android:id="@+id/editTextHrnToEur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/editTextTextPersonName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/euro_to_hr" />
+
+            <EditText
+                android:id="@+id/editTextEurToHrn"
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="@android:integer/config_longAnimTime"
+                android:onClick="onBack"
+                android:text="@string/back" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

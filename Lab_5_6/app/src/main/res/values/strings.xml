@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zinchuk Anna</string>
+    <string name="source_currency">Select source currency</string>
+    <string name="result_currency">Select result currency</string>
+    <string name="source_amount">Enter source amount of money</string>
+    <string name="exchange">Exchange</string>
+    <string name="hrn">hryvnia</string>
+    <string name="doll">dollar</string>
+    <string name="euro">Euro</string>
+    <string name="cource">Check or change currency rate</string>
+    <string name="enter_source_amount_of_money">Enter source amount of money</string>
+    <string name="enter_sum">Enter sum</string>
+    <string name="look_result">Look result</string>
+    <string name="from_to">From --> to</string>
+    <string name="rate">Rate</string>
+    <string name="hr_to_dollar">₴ --> $</string>
+    <string name="dollar_to_hr">$ --> ₴</string>
+    <string name="euro_to_dollar">€ --> $</string>
+    <string name="dollar_to_euro">$ --> €</string>
+    <string name="hr_to_euro">₴ --> €</string>
+    <string name="euro_to_hr">€ --> ₴</string>
+    <string name="back">Back</string>
+</resources>

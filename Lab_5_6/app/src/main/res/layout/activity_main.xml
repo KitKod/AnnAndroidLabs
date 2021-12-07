@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="158dp">
+
+            <TextView
+                android:id="@+id/textViewSource"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center"
+
+                android:text="@string/source_currency"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonSourseCurrencyHrn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/hrn" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSourseCurrencyDol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doll" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSourseCurrencyEur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/euro" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textViewResult"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="start|center"
+
+                android:text="@string/source_currency"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultCurrencyHrn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/hrn" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultCurrencyDol"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/doll" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonResultCurrencyEur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/euro" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="@string/enter_source_amount_of_money" />
+
+            <EditText
+                android:id="@+id/editTextSource"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberSigned|textPersonName|numberDecimal"
+                android:hint="@string/enter_sum" />
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonExchange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onExchange"
+                android:text="@string/exchange" />
+
+            <TextView
+                android:id="@+id/textViewSum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/look_result" />
+
+        </TableRow>
+        <TableRow>
+
+            <Button
+                android:id="@+id/buttonCheckRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="@android:integer/config_longAnimTime"
+                android:onClick="onCheckChangeRate"
+                android:text="@string/cource" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
