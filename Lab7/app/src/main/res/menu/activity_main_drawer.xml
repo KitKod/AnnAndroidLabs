@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/menu_contacts" />
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/menu_browser" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="@string/menu_calendar" />
+    </group>
+
+    <item android:title="@string/menu_random">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_random"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="@string/menu_random" />
+        </menu>
+    </item>
+</menu>
