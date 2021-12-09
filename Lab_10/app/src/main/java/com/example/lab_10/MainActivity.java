@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         videoPlayer = findViewById(R.id.videoPlayer);
-        Uri myVideoUri= Uri.parse( "android.resource://" + getPackageName() + "/" + R.raw.anime);
+        Uri myVideoUri= Uri.parse( "android.resource://" + getPackageName() + "/" + R.raw.tech_support);
 
         videoPlayer.setVideoURI(myVideoUri);
 
@@ -39,12 +39,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        if (id == R.id.action_online) {
-            Intent intent = new Intent();
-            intent.setClass(this, OnlineVideoActivity.class);
-            startActivity(intent);
-            return true;
-        } else if (id == R.id.action_audio) {
+        if (id == R.id.action_audio) {
             Intent intent = new Intent();
             intent.setClass(this, AudioActivity.class);
             startActivity(intent);

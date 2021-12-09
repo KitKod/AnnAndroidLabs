@@ -22,7 +22,7 @@ public class AudioActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
-        mPlayer=MediaPlayer.create(this, R.raw.hero);
+        mPlayer=MediaPlayer.create(this, R.raw.music);
 
         mPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override

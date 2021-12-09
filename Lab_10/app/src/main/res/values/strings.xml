@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Зинчук Анна</string>
-    <string name="action_online">Online Video</string>
-    <string name="action_audio">Audio</string>
+    <string name="app_name">Lab10</string>
+    <string name="action_audio">Музыка</string>
 </resources>
