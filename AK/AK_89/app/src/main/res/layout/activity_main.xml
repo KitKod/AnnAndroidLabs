@@ -21,19 +21,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="100" />
+                android:text="20" />
 
             <RadioButton
                 android:id="@+id/radioButtonDuration2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="200" />
+                android:text="50" />
 
             <RadioButton
                 android:id="@+id/radioButtonDuration3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="300" />
+                android:text="100" />
 
             <Button
                 android:id="@+id/button"

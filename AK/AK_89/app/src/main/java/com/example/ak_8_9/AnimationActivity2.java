@@ -14,15 +14,19 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class AnimationActivity2 extends AppCompatActivity {
-private final static String FILE_NAME = "content.txt";
+    private final static String FILE_NAME = "duration.txt";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_animation2);
+
         String duration = "0";
         FileInputStream fin = null;
+
         TextView textView = (TextView) findViewById(R.id.textView);
+
         try {
             fin = openFileInput(FILE_NAME);
             byte[] bytes = new byte[fin.available()];
@@ -31,36 +35,36 @@ private final static String FILE_NAME = "content.txt";
 
         } catch (IOException ex) {
             Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
-        }
-        finally {
+        } finally {
+
             try {
-                if(fin!=null) fin.close();
+                if (fin != null) {
+                    fin.close();
+                }
             } catch (IOException ex) {
                 Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
             }
+
         }
+
         textView.setText(duration);
         ImageView img = findViewById(R.id.animationView);
-        // устанавливаем ресурс анимации
-        if (Integer.parseInt(duration) == 100) {
+
+        if (Integer.parseInt(duration) == 20) {
             textView.setText(duration);
             img.setBackgroundResource(R.drawable.man_animation_1);
-        }
-        else if (Integer.parseInt(duration) == 200) {
+        } else if (Integer.parseInt(duration) == 50) {
             textView.setText(duration);
             img.setBackgroundResource(R.drawable.man_animation_2);
-        }
-        else {
+        } else {
             textView.setText(duration);
             img.setBackgroundResource(R.drawable.man_animation_3);
         }
-        // получаем объект анимации
+
         AnimationDrawable frameAnimation = (AnimationDrawable) img.getBackground();
-        // по нажатию на ImageView
         img.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // запускаем анимацию
                 frameAnimation.start();
             }
         });
